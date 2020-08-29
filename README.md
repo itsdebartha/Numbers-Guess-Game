@@ -1,4 +1,4 @@
-# Numbers-Guess-Game
+# Guessing-the-Number
 This is a simple game where the computer chooses a number and you have to guess that number within a specific number of chances.
 
 The computer has guessed a number between 1 and 50. Your aim will be to guess that number. You have 4 tries in all.
