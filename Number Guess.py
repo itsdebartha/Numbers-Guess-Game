@@ -36,7 +36,6 @@ permit=input('Are you ready to start? ')
 if permit.lower()=='y' or permit.lower()=='yes' or permit.lower()=='sure' or permit.lower()=='yep' or permit.lower()=='ok' or permit.lower()=='yeah':
     import random
     guess=random.randint(1,50)
-    print(guess)
     point=0
     i=1
     rand=random.sample(range(1,6),3)
@@ -79,7 +78,5 @@ if permit.lower()=='y' or permit.lower()=='yes' or permit.lower()=='sure' or per
     else:
         point=0
     print(f'Your point is {point}.\nThe number given by the computer is: {guess}.\nThanks for playing the game.\nGOOD BYE!!!')
-    exit()
 else:
     print('Ok!! No problem...')
-    exit()
